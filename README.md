@@ -1,7 +1,7 @@
 # simulacao-cpu-em-C
 ## Como executar (TP1)
 
-Para executar o projeto, basta compilar os arquivos utilizando o GCC e iniciar o programa. Um menu será exibido no terminal, permitindo selecionar qual operação deseja executar.
+Para executar o trabalho prático 1, basta compilar os arquivos utilizando o GCC e iniciar o programa. Um menu será exibido no terminal, permitindo selecionar qual operação deseja executar.
 
 Os valores utilizados em cada função estão previamente definidos no arquivo `main.c`.
 
