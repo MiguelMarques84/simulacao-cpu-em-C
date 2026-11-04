@@ -23,7 +23,7 @@ Instrucao *programaAleatorio(RAM *ram, CPU *cpu, int qdeInstrucoes){
     setPrograma(umPrograma, cpu);
     return umPrograma;
 
-}
+}  //programa que gera valores aleatorios (sem valor prático)
 
 void programaMult(RAM *ram, CPU *cpu, int multiplicando, int multiplicador){
 
@@ -35,7 +35,7 @@ void programaMult(RAM *ram, CPU *cpu, int multiplicando, int multiplicador){
     }
 
     int mult = obterValor(cpu, ram, 0);
-    //printf("O resultado da multiplicação de %d por %d é: %d\n", multiplicando, multiplicador, mult);
+    printf("O resultado da multiplicação de %d por %d é: %d\n", multiplicando, multiplicador, mult);
     
 }
 
@@ -53,7 +53,7 @@ void programaDiv(RAM *ram, CPU *cpu, int dividendo, int divisor){
     }
 
     int div = obterValor(cpu, ram, 3);
-    //printf("O resultado da divisão é: %d\n", div);
+    printf("O resultado da divisão é: %d\n", div);
     
     destruirRAM(ram);
 }
@@ -100,7 +100,7 @@ void programaFat(RAM *ram, CPU *cpu, int fat){
     setPrograma(trecho2, cpu);
     iniciar(ram, cpu);
 
-    //printf("O resultado da fatorial é: %d", getRegistrador1(cpu));
+    printf("O resultado da fatorial é: %d", getRegistrador1(cpu));
 }
 
 void programaSomaAteN(RAM *ram, CPU *cpu, int n){
@@ -133,7 +133,7 @@ void programaPotencia(RAM *ram, CPU *cpu, int base, int expoente){
         criarRAM_vazia(2, ram); //garante que existe RAM pra destruir no final, já que o for não roda
     }
 
-    //printf("O resultado da potência de %d^%d é: %d\n", base, expoente, resultado);
+    printf("O resultado da potência de %d^%d é: %d\n", base, expoente, resultado);
 
     destruirRAM(ram);
 }
@@ -214,7 +214,7 @@ void programaRestoDivisao(RAM *ram, CPU *cpu, int dividendo, int divisor){
     }
 
     int resto = obterValor(cpu, ram, 0);
-    //printf("O resto da divisão de %d por %d é: %d\n", dividendoOriginal, divisor, resto);
+    printf("O resto da divisão de %d por %d é: %d\n", dividendoOriginal, divisor, resto);
 
     destruirRAM(ram);
 }
@@ -382,7 +382,7 @@ int programaDivComSinal(RAM *ram, CPU *cpu, int dividendo, int divisor, int *res
     int quociente = (dividendoNegativo != divisorNegativo) ? -quocienteAbs : quocienteAbs;
     int resto = dividendoNegativo ? -restoAbs : restoAbs;
  
-    //printf("%d / %d = quociente %d, resto %d\n", dividendo, divisor, quociente, resto);
+    printf("%d / %d = quociente %d, resto %d\n", dividendo, divisor, quociente, resto);
  
     if(restoSaida != NULL) *restoSaida = resto;
  

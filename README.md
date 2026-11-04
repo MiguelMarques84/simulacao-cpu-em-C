@@ -1,2 +1,10 @@
 # simulacao-cpu-em-C
-Simulação do funcionamento de um computador desenvolvida em C para a disciplina de Organização de Computadores. O projeto implementa componentes como CPU, RAM e sistema de memória, explorando na prática conceitos de arquitetura e organização de computadores.
+## Como executar (TP1)
+
+Para executar o projeto, basta compilar os arquivos utilizando o GCC e iniciar o programa. Um menu será exibido no terminal, permitindo selecionar qual operação deseja executar.
+
+Os valores utilizados em cada função estão previamente definidos no arquivo `main.c`.
+
+A maioria das funções implementadas é auxiliar e serve como base para operações mais complexas, como o cálculo de Bhaskara. Por isso, algumas funções possuem um funcionamento mais simples quando executadas individualmente.
+
+A implementação dos sistemas de **RAM e CPU** pode ser consultada nos respectivos arquivos do projeto.
