@@ -1,4 +1,4 @@
-#include "tp1.h"
+#include "tp2.h"
 
 int main(void) {
     srand(time(NULL));

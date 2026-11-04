@@ -1,4 +1,4 @@
-#include "tp1.h"
+#include "tp2.h"
 
 Instrucao *programaAleatorio(RAM *ram, CPU *cpu, int qdeInstrucoes){
 

@@ -1,4 +1,4 @@
-#include "tp1.h"
+#include "tp2.h"
 
 int getRegistrador1(CPU *self) {
     return self->registrador1;  //retorna o que está no registrador

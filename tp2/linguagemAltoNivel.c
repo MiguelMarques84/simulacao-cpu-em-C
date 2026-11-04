@@ -1,4 +1,4 @@
-#include "tp1.h"
+#include "tp2.h"
 
 //sempre soma o que está na RAM[end1] com o que está na RAM[end2]
 //e salva na RAM[end1] o resultado
